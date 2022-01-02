@@ -1,9 +1,3 @@
-:root {
-    --main-color: #3f4652;
-    --second-color: #ebece0;
-    --title-color: #3f4652;
-}
-
 * {
     box-sizing: border-box;
 }
@@ -27,7 +21,10 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0 20px;
 }
+
+/*header*/
 
 .header {
     background-color: #75869b;
@@ -75,4 +72,41 @@ body {
       to {
         width: calc(100% - 30px);
       }
+}
+
+/*main*/
+
+.main__container {
+    display: flex;
+}
+
+.left-column {
+    width: 30%;
+}
+
+.right-column {
+    width: 70%;
+}
+
+.section__profile-logo {
+    width: 100%;
+    object-fit: cover;
+}
+
+.section__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.section__item {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    padding-left: 20px;
+}
+
+.section__link {
+    text-decoration: none;
+    color: #444440;
 }
