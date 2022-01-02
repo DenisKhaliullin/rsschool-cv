@@ -110,3 +110,12 @@ body {
     text-decoration: none;
     color: #444440;
 }
+
+.project__list {
+    display: flex;
+}
+
+.progect-image {
+    height: max-content;
+    object-fit: contain;
+}
